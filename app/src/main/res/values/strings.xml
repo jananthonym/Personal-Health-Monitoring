@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">G-Trainer</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Workout</string>
+    <string name="title_section3">Stats</string>
+    <string name="title_section4">Journal</string>
+    <string name="title_section5">Customize Workouts</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_trainer">Workout</string>
+    <string name="title_activity_edit">Customize</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

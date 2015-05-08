@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Authored/tested/debugged by: Jan Anthony Miranda -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trainer.g14.g_trainer" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconsmall"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".trainer"
+            android:label="@string/title_activity_trainer"
+            android:screenOrientation="portrait" >
+            android:parentActivityName="com.trainer.g14.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trainer.g14.g_trainer.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".edit"
+            android:label="@string/title_activity_edit" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trainer.g14.g_trainer.MainActivity" />
+        </activity>
+        <service android:name=".reminderService"/>
+        <service android:name=".pedometerService"/>
+    </application>
+
+</manifest>
